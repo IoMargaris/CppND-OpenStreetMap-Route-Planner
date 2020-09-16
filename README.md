@@ -1,16 +1,15 @@
-# Route Planning Project
+# OpenStreetMap Route Planner using A* Search Algorithm
+
+This is Project 1 of [Udacity's C++ Nanodegree](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213)
+<br/>
 
 <img src="map.png" width="600" height="450" />
 
 ## Cloning
 
-When cloning this project, be sure to use the `--recurse-submodules` flag. Using HTTPS:
+To clone this project:
 ```
-git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-```
-or with SSH:
-```
-git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-submodules
+git clone https://github.com/IoMargaris/CppND-OpenStreetMap-Route-Planner.git
 ```
 
 ## Dependencies for Running Locally
@@ -50,10 +49,12 @@ Or to specify a map file:
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
 
+<!-- 
 ## Testing
 
 The testing executable is also placed in the `build` directory. From within `build`, you can run the unit tests as follows:
 ```
 ./test
 ```
+-->
 
